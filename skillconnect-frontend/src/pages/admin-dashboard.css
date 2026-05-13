@@ -1,0 +1,148 @@
+.admin-shell {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #1f2937;
+  padding: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+.admin-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.admin-topbar h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.admin-topbar p {
+  margin: 8px 0 0;
+  color: #556273;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-actions button {
+  border: 1px solid #c8d2de;
+  background: #ffffff;
+  color: #1f2937;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-actions button:hover {
+  background: #eef2f7;
+}
+
+.admin-actions button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.admin-error {
+  color: #b42318;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.admin-message {
+  color: #344054;
+  margin: 0 0 12px;
+}
+
+.admin-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.admin-summary-card {
+  background: #ffffff;
+  border: 1px solid #d9e1ec;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.admin-summary-card span {
+  display: block;
+  color: #667085;
+  font-size: 13px;
+}
+
+.admin-summary-card strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 22px;
+}
+
+.admin-section {
+  margin-bottom: 16px;
+}
+
+.admin-section h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.admin-section h2 span {
+  color: #667085;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+  background: #ffffff;
+  border: 1px solid #d9e1ec;
+  border-radius: 10px;
+}
+
+.admin-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 840px;
+}
+
+.admin-table-wrap th,
+.admin-table-wrap td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef2f6;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.admin-table-wrap th {
+  background: #f7f9fc;
+  color: #344054;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.admin-table-wrap tbody tr:nth-child(even) {
+  background: #fcfdff;
+}
+
+.admin-table-wrap tbody tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 900px) {
+  .admin-shell {
+    padding: 16px;
+  }
+
+  .admin-topbar {
+    flex-direction: column;
+  }
+}

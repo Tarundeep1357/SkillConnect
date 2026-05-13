@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Node frontend
+skillconnect-frontend/node_modules/
+skillconnect-frontend/dist/
+
+# OS / Editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.zip
+zip file 2.zip

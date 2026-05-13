@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Theme Colors */
+:root {
+  --primary: #0A66C2;
+  --dark: #0F172A;
+  --light: #F4F6F9;
+  --accent: #22C55E;
+  --white: #ffffff;
+}
+
+/* Body */
+body {
+  background-color: var(--light);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark);
+  color: var(--white);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-logo span {
+  color: var(--accent);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: rgb(17, 99, 181);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 25px;
+  padding: 40px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Profile */
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  margin-bottom: 15px;
+}
+
+/* Button */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-accent:hover {
+  opacity: 0.9;
+}
+
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dbms-project",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix skillconnect-frontend run dev",
+    "build": "npm --prefix skillconnect-frontend run build",
+    "lint": "npm --prefix skillconnect-frontend run lint",
+    "preview": "npm --prefix skillconnect-frontend run preview"
+  }
+}
