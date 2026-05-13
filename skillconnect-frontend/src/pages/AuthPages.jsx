@@ -108,7 +108,7 @@ function AuthPage() {
 
           <h2>Build your professional identity and get hired faster.</h2>
           <p>
-            Made By Tarundeep Singh ft. Pulkit Madan
+            Made By Tarundeep Singh
           </p>
         </section>
 
